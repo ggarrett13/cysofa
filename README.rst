@@ -1,62 +1,16 @@
 .. poliastro
 
-.. image:: http://poliastro.github.io/images/logo_text.png
-   :target: http://poliastro.github.io/
-   :alt: poliastro logo
-   :width: 675px
-   :align: center
 
-.. |orcid| image:: https://img.shields.io/badge/id-0000--0002--2187--161X-a6ce39.svg
-   :target: http://orcid.org/0000-0002-2187-161X
 
-:Name: poliastro
-:Website: https://poliastro.github.io/
-:Author: Juan Luis Cano Rodríguez |orcid|
-:Version: 0.12.dev0
 
-.. |circleci| image:: https://img.shields.io/circleci/project/github/poliastro/poliastro/master.svg?style=flat-square&logo=circleci
-   :target: https://circleci.com/gh/poliastro/poliastro
+:Name: A very good python package
+:Website:
+:Author: Matthew Turnock
+:Version: 0.0
 
-.. |travisci| image:: https://img.shields.io/travis/poliastro/poliastro/master.svg?style=flat-square&logo=travis
-   :target: https://travis-ci.org/poliastro/poliastro
 
-.. |appveyor| image:: https://img.shields.io/appveyor/ci/Juanlu001/poliastro/master.svg?style=flat-square&logo=appveyor
-   :target: https://ci.appveyor.com/project/Juanlu001/poliastro/branch/master
 
-.. |codecov| image:: https://img.shields.io/codecov/c/github/poliastro/poliastro.svg?style=flat-square
-   :target: https://codecov.io/github/poliastro/poliastro?branch=master
-
-.. |codeclimate| image:: https://api.codeclimate.com/v1/badges/fd2aa5bf8c4b7984d11b/maintainability
-   :target: https://codeclimate.com/github/poliastro/poliastro/maintainability
-
-.. |docs| image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat-square
-   :target: https://docs.poliastro.space/en/latest/?badge=latest
-
-.. |license| image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-   :target: https://github.com/poliastro/poliastro/raw/master/COPYING
-
-.. |doi| image:: https://zenodo.org/badge/11178845.svg?style=flat-square
-   :target: https://zenodo.org/badge/latestdoi/11178845
-
-.. |astropy| image:: http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat-square
-   :target: http://www.astropy.org/
-
-.. |mailing| image:: https://img.shields.io/badge/mailing%20list-groups.io-8cbcd1.svg?style=flat-square
-   :target: https://groups.io/g/poliastro-dev
-
-.. |gitter| image:: https://badges.gitter.im/poliastro/poliastro.svg
-   :alt: Join the chat at https://gitter.im/poliastro/poliastro
-   :target: https://gitter.im/poliastro/poliastro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-
-|circleci| |travisci| |appveyor| |codecov| |codeclimate|
-
-|docs| |license| |doi| |astropy| |mailing| |gitter|
-
-poliastro is an open source pure Python package dedicated to problems arising in Astrodynamics and
-Orbital Mechanics, such as orbit propagation, solution of the Lambert's
-problem, conversion between position and velocity vectors and classical
-orbital elements and orbit plotting, focusing on interplanetary applications.
-It is released under the MIT license.
+This python package is amAZing, so much winning you wouldn't believe.
 
 .. code-block:: python
 
@@ -71,7 +25,6 @@ It is released under the MIT license.
 Documentation
 =============
 
-|docs|
 
 Complete documentation, including a user guide and an API reference, can be read on
 the wonderful `Read the Docs`_.
