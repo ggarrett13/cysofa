@@ -5,25 +5,24 @@ from setuptools import setup, find_packages
 
 # https://packaging.python.org/guides/single-sourcing-package-version/
 version = {}
-with open(os.path.join("src", "poliastro", "__init__.py")) as fp:
+with open(os.path.join("src", "package_name", "__init__.py")) as fp:
     exec(fp.read(), version)
 
 
 # http://blog.ionelmc.ro/2014/05/25/python-packaging/
 setup(
-    name="poliastro",
+    name="package_name",
     version=version['__version__'],
-    description="Python package for Orbital Mechanics",
-    author="Juan Luis Cano",
-    author_email="hello@juanlu.space",
-    url="https://blog.poliastro.space/",
-    download_url="https://github.com/poliastro/poliastro",
+    description="Python package for something",
+    author="Matthew Turnock",
+    author_email="matthew.turnock1@gmail.com",
+    url="",
+    download_url="",
     license="MIT",
     keywords=[
-        "aero", "aerospace", "engineering",
-        "astrodynamics", "orbits", "kepler", "orbital mechanics"
+        "word", "engineering"
     ],
-    python_requires=">=3.5",
+    python_requires=">=3.6",
     install_requires=[
         "numpy",
         "astropy>=3.0,<4.*",
@@ -55,11 +54,11 @@ setup(
     },
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    entry_points={
-        'console_scripts': [
-            'poliastro = poliastro.cli:main'
-        ]
-    },
+    # entry_points={
+    #     'console_scripts': [
+    #         'poliastro = poliastro.cli:main'
+    #     ]
+    # },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Education",
