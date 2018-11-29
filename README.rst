@@ -2,7 +2,7 @@
 :Name: A very good python package
 :Website:
 :Author: Matthew Turnock
-:Version: 0.0
+:Version: 0.1
 
 
 
