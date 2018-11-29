@@ -56,7 +56,23 @@ Linux           CircleCI      deD
 Installation
 ============
 
-Some information on installation goes here
+* Clone the github repository to your desired system location
+* Download the sofa C distribution from http://www.iausofa.org
+* Locate the sofa makefile in directory "sofa_c-20180130/sofa/20180130/c/src"
+* Change line 52 in the makefile which currently reads:
+
+::
+
+ INSTALL_DIR = $(HOME)
+
+to
+
+::
+
+ INSTALL_DIR = **cysofa-install-directory**/cysofa/src/cysofa/cypyx/cylib
+
+* Run the sofa makefile as instructed by sofa documentation
+* Navigate to FINISH INSTRUCTIONS
 
 Testing
 =======
@@ -67,7 +83,7 @@ Did you make unit tests? I didn't think so::
   Running unit tests for poliastro
   [...]
   OK
-  $ 
+  $
 
 License
 =======

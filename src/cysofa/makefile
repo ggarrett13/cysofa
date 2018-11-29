@@ -6,11 +6,11 @@ PYX_DIR = cypyx
 default: py_sofa
 
 py_sofa: setup.py
-	python3 setup.py build_ext --inplace
+	python3 setup.py build_ext --build-lib ./cypyx
 
 
 clean:
-	rm *.so
+	rm ./cypyx/*.so
 
 #Use tidy to get rid of non-required .c files that are generated
 tidy:

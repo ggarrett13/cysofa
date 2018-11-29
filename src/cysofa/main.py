@@ -1,6 +1,7 @@
 #module used for command line interactions
 import subprocess
 import numpy as np
+import time
 
 build=True
 if build:
@@ -9,11 +10,9 @@ if build:
     subprocess.call(['make', 'tidy']) #run outer makefile
 
 #import the library
-import pyanp
-import pyPfw06
-import pyC2t00a
-import pyPn00a
-import pyGd2gc
+#from cysofa import pyanp, pyPfw06, pyC2t00a, pyPn00a, pyGd2gc
+from cypyx import pyanp, pyPfw06, pyC2t00a, pyPn00a, pyGd2gc
+from cysofa import utils
 
 #run an example of pyanp
 a = np.double(6.7)
@@ -56,7 +55,7 @@ print(newGd, type(newGd))
 
 
 #kill the makefiles if you want
-kill = True
-#kill = False
+#kill = True
+kill = False
 if kill == True:
     subprocess.call(['make', 'clean'])

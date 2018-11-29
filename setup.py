@@ -1,19 +1,76 @@
 #!/usr/bin/env python
 import os
 from setuptools import setup, find_packages
+from distutils.core import setup
+from distutils.extension import Extension
+from Cython.Build import cythonize
 
+#############################################
+#Create extensions from .pyx files
+SOFALIB = "./src/cysofa/cypyx/cylib/lib"
+SOFAINCLUDE = "./src/cysofa/cypyx/cylib/include"
+PYXLOC = "./src/cysofa/cypyx/"
 
-# https://packaging.python.org/guides/single-sourcing-package-version/
+#For iauAnp
+IAUNAME = "anp"
+anp_extension = Extension(
+    name="cysofa.py" + IAUNAME,
+    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
+    libraries=["sofa_c"],
+    library_dirs=[SOFALIB],
+    include_dirs=[SOFAINCLUDE]
+)
+
+#For iauPfw06
+IAUNAME = "Pfw06"
+Pfw06_extension = Extension(
+    name="cysofa.py" + IAUNAME,
+    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
+    libraries=["sofa_c"],
+    library_dirs=[SOFALIB],
+    include_dirs=[SOFAINCLUDE]
+)
+
+#For iauc2t00a
+IAUNAME = "C2t00a"
+C2t00a_extension = Extension(
+    name="cysofa.py" + IAUNAME,
+    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
+    libraries=["sofa_c"],
+    library_dirs=[SOFALIB],
+    include_dirs=[SOFAINCLUDE]
+)
+
+#For iauPn00a
+IAUNAME = "Pn00a"
+Pn00a_extension = Extension(
+    name="cysofa.py" + IAUNAME,
+    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
+    libraries=["sofa_c"],
+    library_dirs=[SOFALIB],
+    include_dirs=[SOFAINCLUDE]
+)
+
+#For iauGd2gc
+IAUNAME = "Gd2gc"
+Gd2gc_extension = Extension(
+    name="cysofa.py" + IAUNAME,
+    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
+    libraries=["sofa_c"],
+    library_dirs=[SOFALIB],
+    include_dirs=[SOFAINCLUDE]
+)
+
+############################################
+#get version from __init__ file and perform setup
 version = {}
-with open(os.path.join("src", "package_name", "__init__.py")) as fp:
+with open(os.path.join("src", "cysofa", "__init__.py")) as fp:
     exec(fp.read(), version)
 
-
-# http://blog.ionelmc.ro/2014/05/25/python-packaging/
 setup(
     name="cysofa",
     version=version['__version__'],
-    description="Python package for something",
+    description="Python wrapper for sofa C library",
     author="Matthew Turnock",
     author_email="matthew.turnock1@gmail.com",
     url="",
@@ -25,31 +82,11 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         "numpy",
-        "astropy>=3.0,<4.*",
-        "matplotlib<3.0.1",
-        "jplephem",
-        "scipy",
-        "beautifulsoup4>=4.5.3",
-        "requests",
-        "pandas",
-        "plotly>=3.0,<4.*",
-        "astroquery>=0.3.8",
+        "cython>=0.29.1"
     ],
     extras_require={
-        ':implementation_name=="cpython"': "numba>=0.39",
         'dev': [
-            "coverage",
-            "pytest",
-            "pytest-cov<2.6.0",
-            "pycodestyle",
-            "sphinx",
-            # "sphinx_rtd_theme",  # Use https://github.com/Juanlu001/sphinx_rtd_theme/archive/js-head.zip
-            "nbconvert<5.4",
-            "nbsphinx",
-            "ipython>=5.0",
-            "jupyter-client",
-            "ipykernel",
-            "ipywidgets",
+            "sphinx"
         ]
     },
     packages=find_packages('src'),
@@ -64,13 +101,12 @@ setup(
         "Intended Audience :: Education",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Operating System :: Linux",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: Implementation :: CPython",
+        "Programming Language :: Python :: Implementation :: Cython",
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Physics",
         "Topic :: Scientific/Engineering :: Astronomy",
@@ -78,4 +114,5 @@ setup(
     long_description=open('README.rst', encoding='utf-8').read(),
     include_package_data=True,
     zip_safe=False,
+    ext_modules=cythonize([anp_extension, Pfw06_extension, C2t00a_extension, Pn00a_extension, Gd2gc_extension]),
 )

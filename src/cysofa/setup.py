@@ -31,7 +31,7 @@ Pfw06_extension = Extension(
 )
 setup(
     name="py" + IAUNAME,
-    ext_modules=cythonize([Pfw06_extension])
+    ext_modules=cythonize([Pfw06_extension, anp_extension])
 )
 
 #For iauc2t00a
