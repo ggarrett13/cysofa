@@ -1,18 +1,19 @@
 #module used for command line interactions
 import subprocess
 import numpy as np
+import sys
 import time
 
-build=True
-if build:
-    #use 'make' in proper directories to compile the c files into a static librayr
-    subprocess.call(['make']) #run outer makefile
-    subprocess.call(['make', 'tidy']) #run outer makefile
+#UNFINISHED, DO NOT RUN
 
+print(sys.path)
 #import the library
+#global pyanp
+from cysofa import pyanp
+print(pyanp)
 #from cysofa import pyanp, pyPfw06, pyC2t00a, pyPn00a, pyGd2gc
-from cypyx import pyanp, pyPfw06, pyC2t00a, pyPn00a, pyGd2gc
-from cysofa import utils
+#from cypyx import pyanp, pyPfw06, pyC2t00a, pyPn00a, pyGd2gc
+#from cysofa import utils
 
 #run an example of pyanp
 a = np.double(6.7)
