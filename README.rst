@@ -1,7 +1,3 @@
-.. poliastro
-
-
-
 
 :Name: A very good python package
 :Website:

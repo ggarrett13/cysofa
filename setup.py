@@ -11,7 +11,7 @@ with open(os.path.join("src", "package_name", "__init__.py")) as fp:
 
 # http://blog.ionelmc.ro/2014/05/25/python-packaging/
 setup(
-    name="package_name",
+    name="cysofa",
     version=version['__version__'],
     description="Python package for something",
     author="Matthew Turnock",
