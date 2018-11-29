@@ -72,7 +72,7 @@ to
  INSTALL_DIR = **cysofa-install-directory**/cysofa/src/cysofa/cypyx/cylib
 
 * Run the sofa makefile as instructed by sofa documentation
-* Navigate to FINISH INSTRUCTIONS
+* Navigate to your cysofa installation directory (where the makefile is located) and run the makefile. This will build and install cysofa into your python library.
 
 Testing
 =======
