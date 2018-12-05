@@ -1,0 +1,202 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Documentation &#8212; cysofa 0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Welcome to cysofa’s documentation!" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Welcome to cysofa’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">cysofa 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p>This python package is amAZing, so much winning you wouldn’t believe.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">poliastro.examples</span> <span class="kn">import</span> <span class="n">molniya</span>
+<span class="kn">from</span> <span class="nn">poliastro.plotting</span> <span class="kn">import</span> <span class="n">plot</span>
+
+<span class="n">plot</span><span class="p">(</span><span class="n">molniya</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="https://github.com/MattTurnock/package_template/blob/master/docs/examples/trumpy.jpg" class="align-center" src="https://github.com/MattTurnock/package_template/blob/master/docs/examples/trumpy.jpg" />
+<div class="section" id="documentation">
+<h1>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h1>
+<p>Complete documentation can be found elsewhere</p>
+</div>
+<div class="section" id="examples">
+<h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h1>
+<p>If you want examples you make em yourself</p>
+</div>
+<div class="section" id="requirements">
+<h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
+<p>this package requires the following Python packages:</p>
+<ul class="simple">
+<li>NumPy, for basic numerical routines</li>
+<li>Astropy, for physical units and time handling</li>
+<li>numba (optional), for accelerating the code</li>
+<li>jplephem, for the planetary ephemerides using SPICE kernels</li>
+<li>matplotlib, for orbit plotting</li>
+<li>plotly, for 2D and 3D interactive orbit plotting</li>
+<li>SciPy, for root finding and numerical propagation</li>
+</ul>
+<p>this package is usually tested on Linux</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="27%" />
+<col width="42%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Platform</th>
+<th class="head">Site</th>
+<th class="head">Status</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Linux</td>
+<td>CircleCI</td>
+<td>deD</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>Clone the github repository to your desired system location</li>
+<li>Download the sofa C distribution from <a class="reference external" href="http://www.iausofa.org">http://www.iausofa.org</a></li>
+<li>Locate the sofa makefile in directory “sofa_c-20180130/sofa/20180130/c/src”</li>
+<li>Change line 52 in the makefile which currently reads:</li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>INSTALL_DIR = $(HOME)
+</pre></div>
+</div>
+<p>to</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">INSTALL_DIR</span> <span class="o">=</span> <span class="o">**</span><span class="n">cysofa</span><span class="o">-</span><span class="n">install</span><span class="o">-</span><span class="n">directory</span><span class="o">**/</span><span class="n">cysofa</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">cysofa</span><span class="o">/</span><span class="n">cypyx</span><span class="o">/</span><span class="n">cylib</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>Run the sofa makefile as instructed by sofa documentation</li>
+<li>Navigate to your cysofa installation directory (where the makefile is located) and run the makefile. This will build and install cysofa into your python library.</li>
+</ul>
+</div>
+<div class="section" id="testing">
+<h1>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h1>
+<p>Did you make unit tests? I didn’t think so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python -c &quot;import poliastro.testing; poliastro.testing.test()&quot;
+Running unit tests for poliastro
+[...]
+OK
+$
+</pre></div>
+</div>
+</div>
+<div class="section" id="license">
+<h1>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h1>
+<p>this package is released under the MIT license, hence allowing commercial
+use of the library. Please refer to the LICENSE file.</p>
+</div>
+<div class="section" id="faq">
+<h1>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-s-up-with-the-name">
+<h2>What’s up with the name?<a class="headerlink" href="#what-s-up-with-the-name" title="Permalink to this headline">¶</a></h2>
+<p>I didnt make one yet</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documentation</a></li>
+<li><a class="reference internal" href="#examples">Examples</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#testing">Testing</a></li>
+<li><a class="reference internal" href="#license">License</a></li>
+<li><a class="reference internal" href="#faq">FAQ</a><ul>
+<li><a class="reference internal" href="#what-s-up-with-the-name">What’s up with the name?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../index.html"
+                        title="previous chapter">Welcome to cysofa’s documentation!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/gen/refs.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Welcome to cysofa’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">cysofa 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Matthew Turnock.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.2.
+    </div>
+  </body>
+</html>
