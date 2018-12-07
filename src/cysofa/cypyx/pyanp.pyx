@@ -4,8 +4,7 @@ cdef extern from "sofa.h":
     double iauAnp(double a)
 
 def py_iauAnp(double x):
-    """
-    py_iauAnp(double x)
-    soccers
-    """
+    """ADD DOCUMENTATION HERE"""
+
     return iauAnp(x)
+

@@ -7,17 +7,32 @@ Welcome to cysofa's documentation!
 ==================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
-   gen/refs
+   gen/readme_redirect
+   doc_files/API_contents
 
 hoi
 ===
 
-.. automodule:: src.cysofa.pyanp
+   doc_files/pyanp_doc
+
+.. literalinclude:: ../../src/cysofa/cypyx/pyanp.pyx
+   :language: python
+
+.. automodule:: pyC2t00a
+   :members:
+
+
+.. automodule:: src.cysofa.cypyx.test
+   :members:
+
+.. automodule:: src.cysofa.examples
    :members:
    :undoc-members:
+
+
 
 
 

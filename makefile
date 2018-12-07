@@ -16,3 +16,6 @@ clean:
 	sudo rm -rf build
 	sudo rm -rf dist
 	sudo rm -rf src/cysofa.egg-info
+	sudo rm -rf src/cysofa/*.so
+	sudo rm -rf src/cysofa/cypyx/*.c
+	sudo rm -rf *.so

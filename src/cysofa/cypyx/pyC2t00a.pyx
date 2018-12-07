@@ -6,6 +6,7 @@ cdef extern from "sofa.h":
                double xp, double yp, double rc2t[3][3])
 
 def py_iauC2t00a(double tta, double ttb, double uta, double utb, double xp, double yp):
+    """ heres c2t """
     cdef double rc2t[3][3]  #initialise C array
 
     iauC2t00a(tta, ttb, uta, utb, xp, yp, rc2t)     #perform sofa routine
