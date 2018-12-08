@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb63d6a9-391e-419b-acc7-d0ba3ff710f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyC2t00a_doc.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyGd2gc_doc.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyC2t00a_source.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyGd2gc_source.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyPfw06_source.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyPn00a_source.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyanp_source.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/source_contents.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/doc_files/API_contents.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/doc_files/API_contents.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/cysofa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/examples.py" afterDir="false" />
-    </list>
+    <list default="true" id="fb63d6a9-391e-419b-acc7-d0ba3ff710f6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +35,13 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/source/Usage.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -79,11 +52,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyC2t00a_source.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyGd2gc_source.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -151,8 +119,9 @@
         <option value="$PROJECT_DIR$/docs/source/doc_files/pyGd2gc_doc.rst" />
         <option value="$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst" />
         <option value="$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst" />
-        <option value="$PROJECT_DIR$/docs/source/index.rst" />
         <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/docs/source/index.rst" />
+        <option value="$PROJECT_DIR$/docs/source/Usage.rst" />
       </list>
     </option>
   </component>
@@ -186,12 +155,6 @@
               <item name="cysofa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cysofa" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cysofa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cysofa" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cysofa" type="b2602c69:ProjectViewProjectNode" />
@@ -467,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544212295491</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Done inline documentation, need to make some explanations">
+      <created>1544268871275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544268871275</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -481,7 +451,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="160" width="1920" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18623266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -545,10 +514,10 @@
     <MESSAGE value="Started some documentations" />
     <MESSAGE value="Revert &quot;added some documentation&quot;&#10;&#10;This reverts commit fe56b8004309c1c28e0239ddbf79db60ac3d8348.&#10;&#10;# Conflicts:&#10;#&#9;docs/build/html/_sources/gen/refs.rst.txt&#10;#&#9;docs/build/html/_sources/index.rst.txt" />
     <MESSAGE value="started documentations" />
-    <option name="LAST_COMMIT_MESSAGE" value="started documentations" />
+    <MESSAGE value="Done inline documentation, need to make some explanations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done inline documentation, need to make some explanations" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/setup.cfg" />
     <entry file="file://$PROJECT_DIR$/index.ipynb" />
     <entry file="file://$PROJECT_DIR$/ISSUE_TEMPLATE.md" />
@@ -725,13 +694,16 @@
     <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/Usage.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>

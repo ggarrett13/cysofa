@@ -1,0 +1,285 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pyPn00a module &mdash; cysofa 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Source Code" href="../source_includes/source_contents.html" />
+    <link rel="prev" title="pyPfw06 module" href="pyPfw06_doc.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> cysofa
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../gen/readme_redirect.html">Overview/ Readme</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="API_contents.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="pyanp_doc.html">pyanp module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pyC2t00a_doc.html">pyC2t00a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pyGd2gc_doc.html">pyGd2gc module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pyPfw06_doc.html">pyPfw06 module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">pyPn00a module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../source_includes/source_contents.html">Source Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Usage.html">Usage</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">cysofa</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="API_contents.html">API Reference</a> &raquo;</li>
+        
+      <li>pyPn00a module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doc_files/pyPn00a_doc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="module-pyPn00a">
+<span id="pypn00a-module"></span><h1>pyPn00a module<a class="headerlink" href="#module-pyPn00a" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="pyPn00a.py_iauPn00a">
+<code class="descclassname">pyPn00a.</code><code class="descname">py_iauPn00a</code><span class="sig-paren">(</span><em>double date1</em>, <em>double date2</em><span class="sig-paren">)</span><a class="headerlink" href="#pyPn00a.py_iauPn00a" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wrapper for iauPn00a module (<a class="reference external" href="http://www.iausofa.org/current_C.html">SOFA Documentation</a>.). Given the date, returns various variables from the IAU 2000A precession-nutation model.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>date1</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Terrestrial Time as a 2-part Julian Date (Part 1).</li>
+<li><strong>date2</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Terrestrial Time as a 2-part Julian Date (Part 2).</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><dl class="docutils">
+<dt>Length 7 tuple containing:</dt>
+<dd><ul class="first last simple">
+<li><strong>dpsi</strong> – <span class="math notranslate nohighlight">\(\mathbf{\psi}\)</span> component of IAU 2000A nutation model (radians).</li>
+<li><strong>deps</strong> – <span class="math notranslate nohighlight">\(\mathbf{\epsilon}\)</span> component of IAU 2000A nutation model (radians).</li>
+<li><strong>epsa</strong> – Mean obliquity, consistent with IAU 2000 precession.</li>
+<li><strong>rb</strong> – (3x3) Numpy Array containing frame bias matrix. The matrix transforms vectors from GCRS to J2000.0 mean equator and equinox by applying frame bias.</li>
+<li><strong>rp</strong> – (3x3) Numpy Array containing precession matrix. The matrix transforms vectors from J2000.0 mean equator and equinox to mean equator and equinox of date by applying precession.</li>
+<li><strong>rbp</strong> – (3x3) Numpy Array containing bias-precession matrix. The matrix transforms vectors from GCRS to mean equator and equinox of date by applying frame bias then precession.  It is the product rp x rb.</li>
+<li><strong>rn</strong> – (3x3) Numpy Array containing nutation matrix. The matrix transforms vectors from mean equator and equinox of date to true equator and equinox of date by applying the nutation (luni-solar + planetary).</li>
+<li><strong>rbpn</strong> – (3x3) Numpy Array containing GCRS-to-true matrix. The matrix transforms vectors from GCRS to true equator and equinox of date.  It is the product rn x rbp, applying frame bias, precession and nutation in that order.</li>
+</ul>
+</dd>
+</dl>
+</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)">tuple</a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If only the transformation from GCRS to true is required, then take the <strong>rbpn</strong> output.</p>
+</div>
+</dd></dl>
+
+<p><a class="reference internal" href="../source_includes/pyPn00a_source.html"><span class="doc">[Source]</span></a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../source_includes/source_contents.html" class="btn btn-neutral float-right" title="Source Code" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pyPfw06_doc.html" class="btn btn-neutral" title="pyPfw06 module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Matthew Turnock
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
