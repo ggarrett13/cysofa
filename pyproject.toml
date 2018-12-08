@@ -3,4 +3,6 @@ requires = [
     "setuptools",
     "wheel",
     "numpy",
+    "numpydoc",
+    "sphinx_rtd_theme"
 ]
