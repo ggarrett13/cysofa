@@ -8,7 +8,29 @@ cdef extern from "sofa.h":
               double rn[3][3], double rbpn[3][3])
 
 def py_iauPn00a(double date1, double date2):
+    """Wrapper for iauPn00a module (`SOFA Documentation <http://www.iausofa.org/current_C.html>`_.). Given the date, returns various variables from the IAU 2000A precession-nutation model.
 
+    Args:
+      date1 (float): Terrestrial Time as a 2-part Julian Date (Part 1).
+      date2 (float): Terrestrial Time as a 2-part Julian Date (Part 2).
+
+    Returns:
+      (tuple):
+
+         Length 7 tuple containing:
+            * **dpsi** -- :math:`\mathbf{\psi}` component of IAU 2000A nutation model (radians).
+            * **deps** -- :math:`\mathbf{\epsilon}` component of IAU 2000A nutation model (radians).
+            * **epsa** -- Mean obliquity, consistent with IAU 2000 precession.
+            * **rb** -- (3x3) Numpy Array containing frame bias matrix. The matrix transforms vectors from GCRS to J2000.0 mean equator and equinox by applying frame bias.
+            * **rp** -- (3x3) Numpy Array containing precession matrix. The matrix transforms vectors from J2000.0 mean equator and equinox to mean equator and equinox of date by applying precession.
+            * **rbp** -- (3x3) Numpy Array containing bias-precession matrix. The matrix transforms vectors from GCRS to mean equator and equinox of date by applying frame bias then precession.  It is the product rp x rb.
+            * **rn** -- (3x3) Numpy Array containing nutation matrix. The matrix transforms vectors from mean equator and equinox of date to true equator and equinox of date by applying the nutation (luni-solar + planetary).
+            * **rbpn** -- (3x3) Numpy Array containing GCRS-to-true matrix. The matrix transforms vectors from GCRS to true equator and equinox of date.  It is the product rn x rbp, applying frame bias, precession and nutation in that order.
+
+    .. note::
+       If only the transformation from GCRS to true is required, then take the **rbpn** output.
+
+    """
     #Initialise 3 variables pointed to
     cdef double dpsi
     cdef double deps

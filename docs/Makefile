@@ -49,6 +49,7 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/*
 
+#builds python directory as the higher level makefile, and automatically moves .so files
 pybuild:
 	@echo "Building python package"
 	cd .. && python3 setup.py build_ext --inplace
@@ -56,13 +57,24 @@ pybuild:
 	@echo "Moving .so to proper place"
 	make prebuild
 
+#performs clean as higher level makefile does - remove all compiled python modules
 pyclean:
 	@echo "Cleaning all python compiled modules"
 	cd .. && make clean
 
+#used to copy .so files into top level (if recompilation of python not needed)
 prebuild:
 	@echo "copying .so files"
-	cp ../src/cysofa/*.so ../
+	cp ../src/*.so ../
+
+#used to remove .so files that must be in top level
+tidy:
+	@echo "removing temporarily copied .so modules"
+	cd .. && rm *.so
+
+#use this to make html, as if taking straight from an unbuilt state
+main:
+	make clean && make pybuild && make html && make tidy
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html

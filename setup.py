@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import os
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, findall
 from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Build import cythonize
@@ -148,8 +148,8 @@ setup(
             "sphinx"
         ]
     },
-    packages=find_packages('src/cysofa'),
-    package_dir={'': 'src/cysofa'},
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
     # entry_points={
     #     'console_scripts': [
     #         'poliastro = poliastro.cli:main'

@@ -43,7 +43,14 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
+    'numpydoc',
+'sphinx.ext.todo',
+'nbsphinx',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.doctest',
+    #'sphinx.ext.inheritance_diagram'
     'sphinx.ext.githubpages',
+    'sphinx.ext.napoleon',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -111,22 +118,74 @@ htmlhelp_basename = 'cysofadoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+# latex_elements = {
+#     # The paper size ('letterpaper' or 'a4paper').
+#     #
+#     # 'papersize': 'letterpaper',
+#
+#     # The font size ('10pt', '11pt' or '12pt').
+#     #
+#     # 'pointsize': '10pt',
+#
+#     # Additional stuff for the LaTeX preamble.
+#     #
+#     # 'preamble': '',
+#
+#     # Latex figure (float) alignment
+#     #
+#     # 'figure_align': 'htbp',
+# }
+
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
+    'preamble': r'''
+\usepackage[titles]{tocloft}
+\usepackage{extsizes}
+\usepackage{amsmath} 
+\usepackage{graphicx}
+\usepackage{filecontents}
+\usepackage[section]{placeins} %float-barriers
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage{subfigure} %include more than one graphic in a figure
+\usepackage{sidecap}
+\lccode`~=0
+\lccode`\/=0
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{titlepic}
+\usepackage[english]{babel}
+\usepackage[autostyle]{csquotes}
+\usepackage{tikz}
+\usetikzlibrary{quotes,angles}
+\usepackage{rotating}
+\usepackage{geometry}
+\usepackage{afterpage}
+\usepackage{textcomp,gensymb}
+\usepackage[abs]{overpic}
+\usepackage[pages=some]{background}
+\usepackage[pdftex]{hyperref}
+\usepackage{nomencl}
+\usepackage{caption,booktabs,array}
+\usepackage{parskip}
+\usepackage{multicol}
+\usepackage{appendix}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage{titlesec}
+\usepackage{pifont}
+\usepackage{mathtools}
+\usepackage{changepage}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{longtable}
+\usepackage{scalerel}
+\usepackage{soul}
+\usepackage{amsmath,amssymb}
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples

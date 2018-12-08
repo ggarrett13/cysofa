@@ -12,30 +12,8 @@ Welcome to cysofa's documentation!
 
    gen/readme_redirect
    doc_files/API_contents
-
-hoi
-===
-
-   doc_files/pyanp_doc
-
-.. literalinclude:: ../../src/cysofa/cypyx/pyanp.pyx
-   :language: python
-
-.. automodule:: pyC2t00a
-   :members:
-
-
-.. automodule:: src.cysofa.cypyx.test
-   :members:
-
-.. automodule:: src.cysofa.examples
-   :members:
-   :undoc-members:
-
-
-
-
-
+   source_includes/source_contents
+   Usage
 
 Indices and tables
 ==================

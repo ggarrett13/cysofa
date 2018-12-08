@@ -6,15 +6,17 @@ import time
 
 #UNFINISHED, DO NOT RUN
 
-def test():
-    '''
+def test(r, v, source_body):
+    """This function does something.
 
-    you're a cock mate
+    :param name: The name to use.
+    :type name: str.
+    :param state: Current state to be in.
+    :type state: bool.
+    :returns:  int -- the return code.
+    :raises: AttributeError, KeyError
 
-    Returns
-    -------
-    a bellend
-    '''
+    """
     print('meet me')
     return None
 # print(sys.path)

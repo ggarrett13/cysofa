@@ -19,3 +19,4 @@ clean:
 	sudo rm -rf src/cysofa/*.so
 	sudo rm -rf src/cysofa/cypyx/*.c
 	sudo rm -rf *.so
+	sudo rm -rf src/*.so

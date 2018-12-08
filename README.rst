@@ -1,5 +1,5 @@
-OVERVIEW
-========
+Overview/ Readme
+================
 
 :Name: A very good python package
 :Website:
@@ -8,7 +8,7 @@ OVERVIEW
 
 
 
-This python package is amAZing, so much winning you wouldn't believe.
+This Python package is a simple wrapper for a number of sofa subroutines. For a full list of supported subroutines see the API Reference.
 
 .. image:: https://github.com/MattTurnock/package_template/blob/master/docs/examples/trumpy.jpg
    :align: center
@@ -16,8 +16,7 @@ This python package is amAZing, so much winning you wouldn't believe.
 Documentation
 -------------
 
-
-Complete documentation can be found AT INDEX
+Complete documentation can be found **Add link to site when complete**
 
 
 Requirements
@@ -26,6 +25,7 @@ Requirements
 this package requires the following Python packages:
 
 * NumPy, for basic numerical routines
+* Cython, required for building extensions
 
 this package is usually tested on Linux
 
@@ -38,7 +38,7 @@ Linux           CircleCI      deD
 
 Installation
 ------------
-
+**UPDATE THIS SOON**
 * Clone the github repository to your desired system location
 * Download the sofa C distribution from http://www.iausofa.org
 * Locate the sofa makefile in directory "sofa_c-20180130/sofa/20180130/c/src"
@@ -66,7 +66,3 @@ use of the library. Please refer to the LICENSE file.
 FAQ
 ---
 
-What's up with the name?
-------------------------
-
-I didnt make one yet

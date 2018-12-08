@@ -1,67 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb63d6a9-391e-419b-acc7-d0ba3ff710f6" name="Default Changelist" comment="Revert &quot;added some documentation&quot;&#10;&#10;This reverts commit fe56b8004309c1c28e0239ddbf79db60ac3d8348.&#10;&#10;# Conflicts:&#10;#&#9;docs/build/html/_sources/gen/refs.rst.txt&#10;#&#9;docs/build/html/_sources/index.rst.txt">
-      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/API_contents.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" afterDir="false" />
+    <list default="true" id="fb63d6a9-391e-419b-acc7-d0ba3ff710f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyC2t00a_doc.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyGd2gc_doc.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyC2t00a_source.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyGd2gc_source.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyPfw06_source.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyPn00a_source.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/pyanp_source.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/source_includes/source_contents.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/doctrees/environment.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/doctrees/gen/refs.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/doctrees/index.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/.buildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_sources/gen/refs.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_sources/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/classic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/comment-bright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/comment-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/comment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/doctools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/documentation_options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/down-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/jquery-3.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/pygments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/searchtools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/underscore-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/up-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/_static/websupport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/gen/refs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/genindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/objects.inv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/py-modindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/build/html/searchindex.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/gen/refs.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/gen/readme_redirect.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/doc_files/API_contents.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/doc_files/API_contents.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/cysofa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyanp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cysofa/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cysofa/examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/pyC2t00a.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/pyGd2gc.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/pyPfw06.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/pyPn00a.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cysofa/pyanp.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,79 +43,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyC2t00a_doc.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyGd2gc_doc.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/doc_files/API_contents.rst">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cysofa/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/show.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/docs/source/source_includes/source_contents.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.rst">
+        <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyC2t00a_source.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyGd2gc_source.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/gen/readme_redirect.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="73" selection-start-line="71" selection-end-line="73" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-              <folding>
-                <element signature="e#564#573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -162,6 +107,7 @@
       <find>.py</find>
       <find>view</find>
       <find>html</find>
+      <find>latex_en</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,18 +127,32 @@
         <option value="$PROJECT_DIR$/src/cysofa/__init__.py" />
         <option value="$PROJECT_DIR$/docs/source/gen/refs.rst" />
         <option value="$PROJECT_DIR$/src/cysofa/test.py" />
-        <option value="$PROJECT_DIR$/src/cysofa/examples.py" />
-        <option value="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/docs/source/conf.py" />
-        <option value="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" />
-        <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/docs/source/doc_files/doc_contents.rst" />
         <option value="$PROJECT_DIR$/docs/source/doc_files/API_contents.rst" />
-        <option value="$PROJECT_DIR$/docs/source/index.rst" />
+        <option value="$PROJECT_DIR$/src/cysofa/examples.py" />
+        <option value="$PROJECT_DIR$/src/__init__.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/makefile" />
+        <option value="$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx" />
+        <option value="$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx" />
         <option value="$PROJECT_DIR$/docs/Makefile" />
         <option value="$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx" />
+        <option value="$PROJECT_DIR$/docs/source/conf.py" />
+        <option value="$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx" />
+        <option value="$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx" />
+        <option value="$PROJECT_DIR$/docs/source/source_includes/pyanp_source.rst" />
+        <option value="$PROJECT_DIR$/docs/source/source_includes/pyPn00a_source.rst" />
+        <option value="$PROJECT_DIR$/docs/source/source_includes/pyPfw06_source.rst" />
+        <option value="$PROJECT_DIR$/docs/source/source_includes/pyGd2gc_source.rst" />
+        <option value="$PROJECT_DIR$/docs/source/source_includes/pyC2t00a_source.rst" />
+        <option value="$PROJECT_DIR$/docs/source/source_includes/source_contents.rst" />
+        <option value="$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst" />
+        <option value="$PROJECT_DIR$/docs/source/doc_files/pyC2t00a_doc.rst" />
+        <option value="$PROJECT_DIR$/docs/source/doc_files/pyGd2gc_doc.rst" />
+        <option value="$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst" />
+        <option value="$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst" />
+        <option value="$PROJECT_DIR$/docs/source/index.rst" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -231,12 +191,6 @@
               <item name="cysofa" type="b2602c69:ProjectViewProjectNode" />
               <item name="cysofa" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cysofa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cysofa" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,6 +204,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cysofa" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cysofa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cysofa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cysofa" type="462c0819:PsiDirectoryNode" />
+              <item name="cypyx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,25 +220,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="poliastro" is-module-sdk="true">
+      <console-settings module-name="cysofa" is-module-sdk="true">
         <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="poliastro" />
+        <option name="myModuleName" value="cysofa" />
       </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/source/source_includes" />
+      <recent name="$PROJECT_DIR$/docs/source/doc_files" />
       <recent name="$PROJECT_DIR$/src/cysofa" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/cysofa/cypyx" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/docs/source/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cysofa" />
       <recent name="$PROJECT_DIR$/src/cysofa/cypyx" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -498,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544018364604</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="started documentations">
+      <created>1544212295490</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544212295491</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,8 +481,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="160" width="1920" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27267876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18623266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -524,15 +494,36 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994664" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.64461046" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4967983" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49573106" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4994664" weight="0.32967034" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032017" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50426894" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="make" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18623266" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893278" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994664" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.64461046" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49573106" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4994664" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50426894" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="make" order="3" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -552,22 +543,11 @@
     <MESSAGE value="finished module, updated to V0.1" />
     <MESSAGE value="added some documentation" />
     <MESSAGE value="Started some documentations" />
-    <MESSAGE value="started documentations" />
     <MESSAGE value="Revert &quot;added some documentation&quot;&#10;&#10;This reverts commit fe56b8004309c1c28e0239ddbf79db60ac3d8348.&#10;&#10;# Conflicts:&#10;#&#9;docs/build/html/_sources/gen/refs.rst.txt&#10;#&#9;docs/build/html/_sources/index.rst.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;added some documentation&quot;&#10;&#10;This reverts commit fe56b8004309c1c28e0239ddbf79db60ac3d8348.&#10;&#10;# Conflicts:&#10;#&#9;docs/build/html/_sources/gen/refs.rst.txt&#10;#&#9;docs/build/html/_sources/index.rst.txt" />
+    <MESSAGE value="started documentations" />
+    <option name="LAST_COMMIT_MESSAGE" value="started documentations" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package_name/util.py" />
-    <entry file="file://$PROJECT_DIR$/src/package_name/a_subpackage/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/package_name/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/package_name/a_subpackage/util.py" />
-    <entry file="file://$PROJECT_DIR$/src/package_name/a_subpackage/a_subsubpackage/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/package_name/a_subpackage/a_module.py" />
-    <entry file="file://$PROJECT_DIR$/.travis.yml" />
-    <entry file="file://$PROJECT_DIR$/appveyor.yml" />
-    <entry file="file://$PROJECT_DIR$/CODE_OF_CONDUCT.rst" />
-    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.rst" />
-    <entry file="file://$PROJECT_DIR$/readthedocs.yml" />
     <entry file="file://$PROJECT_DIR$/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/setup.cfg" />
     <entry file="file://$PROJECT_DIR$/index.ipynb" />
@@ -588,17 +568,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cysofa/setup.py" />
     <entry file="file://$PROJECT_DIR$/src/cysofa/makefile" />
@@ -623,16 +592,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cython_example.pyx" />
-    <entry file="file://$PROJECT_DIR$/src/cysofa/examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" selection-start-line="19" selection-end-line="73" />
-          <folding>
-            <element signature="e#43#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -640,76 +599,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cysofa/pyanp.pyx" />
-    <entry file="file://$PROJECT_DIR$/docs/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/API_contents.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/gen/readme_redirect.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="73" selection-start-line="71" selection-end-line="73" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding>
-            <element signature="e#564#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cysofa/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cysofa/examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#43#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyC2t00a.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="69" selection-start-line="11" selection-start-column="19" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyGd2gc.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="23" selection-start-line="23" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyanp.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+          <folding>
+            <element signature="e#564#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyPfw06.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cysofa/cypyx/pyPn00a.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="136" selection-start-line="23" selection-start-column="136" selection-end-line="23" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/gen/readme_redirect.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/API_contents.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyanp_source.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyPn00a_source.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyPfw06_source.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyGd2gc_source.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/source_includes/pyC2t00a_source.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/source_includes/source_contents.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyanp_doc.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyC2t00a_doc.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyGd2gc_doc.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyPfw06_doc.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/doc_files/pyPn00a_doc.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
 </project>
