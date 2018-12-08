@@ -142,7 +142,8 @@ setup(
     install_requires=[
         "numpy",
         "cython>=0.29.1",
-        "numpydoc"
+        "numpydoc",
+        "sphinx_rtd_theme"
     ],
     extras_require={
         'dev': [
