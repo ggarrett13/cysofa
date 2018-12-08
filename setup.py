@@ -6,69 +6,31 @@ from distutils.extension import Extension
 from Cython.Build import cythonize
 
 #############################################
-#Create extensions from .pyx files
+# Create extensions from .pyx files
 SOFALIB = "./src/cysofa/cypyx/cylib/lib"
 SOFAINCLUDE = "./src/cysofa/cypyx/cylib/include"
 PYXLOC = "./src/cysofa/cypyx/"
 NAMESTRT = "src.cysofa.cypyx.py"
 
-#For iauAnp
-IAUNAME = "anp"
-anp_extension = Extension(
-    name=  "py" + IAUNAME,
-    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
-    libraries=["sofa_c"],
-    library_dirs=[SOFALIB],
-    include_dirs=[SOFAINCLUDE]
-)
-
-#For iauPfw06
-IAUNAME = "Pfw06"
-Pfw06_extension = Extension(
-    name="py" + IAUNAME,
-    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
-    libraries=["sofa_c"],
-    library_dirs=[SOFALIB],
-    include_dirs=[SOFAINCLUDE]
-)
-
-#For iauc2t00a
-IAUNAME = "C2t00a"
-C2t00a_extension = Extension(
-    name="py" + IAUNAME,
-    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
-    libraries=["sofa_c"],
-    library_dirs=[SOFALIB],
-    include_dirs=[SOFAINCLUDE]
-)
-
-#For iauPn00a
-IAUNAME = "Pn00a"
-Pn00a_extension = Extension(
-    name="py" + IAUNAME,
-    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
-    libraries=["sofa_c"],
-    library_dirs=[SOFALIB],
-    include_dirs=[SOFAINCLUDE]
-)
-
-#For iauGd2gc
-IAUNAME = "Gd2gc"
-Gd2gc_extension = Extension(
-    name="py" + IAUNAME,
-    sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
-    libraries=["sofa_c"],
-    library_dirs=[SOFALIB],
-    include_dirs=[SOFAINCLUDE]
-)
+# For iauAnp, iauPfw06, iauc2t00a, iauPn00a, iauGd2gc
+IAUNAMES = ["anp", "Pfw06", "C2t00a", "Pn00a", "Gd2gc"]
+EXTENSIONS = [
+    Extension(
+        name="py" + IAUNAME,
+        sources=[PYXLOC + "py" + IAUNAME + ".pyx"],
+        libraries=["sofa_c"],
+        library_dirs=[SOFALIB],
+        include_dirs=[SOFAINCLUDE]
+    ) for IAUNAME in IAUNAMES
+]
 
 ############################################
-#get version from __init__ file and perform setup
+# get version from __init__ file and perform setup
 version = {}
 with open(os.path.join("src", "cysofa", "__init__.py")) as fp:
     exec(fp.read(), version)
 
-ext_modules = cythonize([anp_extension, Pfw06_extension, C2t00a_extension, Pn00a_extension, Gd2gc_extension], compiler_directives={'embedsignature': True})
+ext_modules = cythonize(EXTENSIONS, compiler_directives={'embedsignature': True})
 # for e in ext_modules:
 #     e.cython_directives = {"embedsignature": True}
 #
