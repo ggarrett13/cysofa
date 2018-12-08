@@ -141,7 +141,8 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         "numpy",
-        "cython>=0.29.1"
+        "cython>=0.29.1",
+        "numpydoc"
     ],
     extras_require={
         'dev': [
